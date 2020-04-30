@@ -1,0 +1,41 @@
+body{
+    background-image: url(06.jpeg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+li{
+    background-color: white;
+    border-radius: 5px;
+    padding:5px;
+    width:130px;
+    display: inline-block;
+    font-family: 'Play', sans-serif;
+}
+
+.menu li:hover{
+    background-color:#d5a7e0ad;
+}
+
+footer{
+    background-color: #9469f080;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+}
