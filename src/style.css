@@ -84,104 +84,38 @@ main {
   font-size: 30px;
 } 
 
-@media (max-width: 1200px){
-  .button {
-    border: 2px solid #9469f093;
-    background-color: white;
-    border-radius: 5px;
-    padding: 5px;
-    display: flex;
-    font-family: "Play", sans-serif;
-    font-size: 25px;
-    width: 25%;
-    text-align: center;
-  }
-}
-
-
 @media (min-width:800px) and (max-width:1000px){
   .button {
-    border: 2px solid #9469f093;
-    background-color: white;
-    border-radius: 5px;
-    padding: 5px;
-    display: flex;
-    font-family: "Play", sans-serif;
-    font-size: 25px;
     width: 30%;
-    text-align: center;
   }
   .container {
-    border: 2px solid #9469f093;
-    background-color: rgba(255, 255, 255, 0.856);
     width: 90%;
-    border-radius: 20px;
-    font-family: "Play", sans-serif;
-    text-align: center;
-    margin-top: 2%;
-  }
+  } 
 
   .card {
-    height:220px;
     width: 25%;
-    background-color: rgba(255, 255, 255, 0.973);
-    margin: 12px;
-    border: 2px solid #9469f093;
-    border-radius: 6%;
-  } 
-  .name {
-    margin: 0;
-    font-size: 25px;
-  } 
-  .all-type {
-    display: flex;
-    justify-content: space-around;
-    width: auto;
-  } 
-  .number {
-    background-color: rgb(228, 228, 228);
-    border-radius: 15px;
-    width: 25%;
-  } 
+  }  
 } 
 
 @media (min-width:320px) and (max-width:500px){
   .logo {
     width: 80%;
     margin: 1% 10%;
-  }
+  } 
 
   .menu {
     display: inline;
     justify-content:flex-end;
   }  
   
-
   .button {
-    border: 2px solid #9469f093;
-    background-color: white;
-    border-radius: 5px;
-    display:flex;
-    font-family: "Play", sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     width: 80%;
-    text-align:center;
     margin: auto;
   }
-  
-  #root {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-}  
-.card {
-  height: 220px;
+
+  .card {
   width: 90%;
-  background-color: rgba(255, 255, 255, 0.973);
-  margin: 12px;
-  border: 2px solid #9469f093;
-  border-radius: 6%;
 }  
 }  
 
