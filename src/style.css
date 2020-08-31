@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
   background-image: url("./assets/PokemonsContorno.png");
+=======
+  background-image: url("inicio.jpeg");
+>>>>>>> 00e7483b488c4fa7a44ea7e56ef24cb2928a4d95
   background-attachment: fixed;
   background-size: 100%;
   background-repeat: repeat-y;
@@ -288,4 +292,8 @@ footer {
   font-family: "Play", sans-serif;
   font-size: 120%;
   margin-top: 2%;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 00e7483b488c4fa7a44ea7e56ef24cb2928a4d95
